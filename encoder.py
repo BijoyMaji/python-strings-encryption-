@@ -40,7 +40,7 @@ no1=['n','N','No','no']
 key=[]
 if chack_key in no1:
 #key work
-        key=[str(int(random.uniform(0,9))) for i in range (10) ]
+        key=[str(int(random.uniform(0,8))) for i in range (10) ]
 elif chack_key in yes1:
         key_in=input('Input our key: ')
         key_2=['@','$', 'G','A','#','%','X','!','_','+','/','&','z','r','H','Q','W','D','Y','~']
