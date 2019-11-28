@@ -10,7 +10,7 @@ print('By - Bijoy Maji. Email:- majibijoy00@gmail.com')
 print('Note: There have a problem with some key. if you find it , please mail me the key at majibijoy00@gmail.')
 print('.'*150)
 import math as m
-key=input('Input our key: ')
+key=input('Input your key:')
 key_2=['@','$', 'G','A','#','%','X','!','_','+','/','&','z','r','H','Q','W','D','Y','~']
 key_1=[key[i] for i in range(len(key))]
 j=int(key_1[10])
@@ -47,7 +47,7 @@ for i in range(8):
     if i not in word_with_key:
         word_with_key.append(i)
 #print(word_with_key)
-in_put=input('Enter your enoded string:')
+in_put=input('Enter your encoded string:')
 output=[in_put[i] for i in range(len(in_put))]
 words_list1=[['l', 'z', 'x', 'c', 'v', 'b','u','i','o','p','a','s'],
             ['d', 'f', 'g', 'h', 'j', 'k', 'q','w','e','r','t','y'],
@@ -75,6 +75,6 @@ try:
     for i in in_put:
         #print(i,words_list2.index(i))
         result+=words[words_list2.index(i)]
-    print('Your deoded string is: ',result)
+    print('Your decoded string is:',result)
 except IndexError:
     print('Input corret values....')
